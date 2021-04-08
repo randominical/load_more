@@ -20,11 +20,11 @@
     border: 2px solid yellow;
 }
 
-.hidden {
+.item-hidden {
     display: none;
 }
 
-.more {
+.button-more {
     padding: 7px;
     font-size: 14px;
     background-color: red;
@@ -33,10 +33,11 @@
     font-weight: 600;
     margin: 0 auto;
     cursor: pointer;
+    outline: none;
     transition: color .3s linear, background-color .3s linear, border .3s linear;
 }
 
-.more:hover {
+.button-more:hover {
     background-color: white;
     color: red;
     border: 1px solid red;
