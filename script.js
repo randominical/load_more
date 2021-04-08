@@ -8,7 +8,6 @@ for (var i = 0; i < more.length; i++) {
     for (var i = 0; i < showPerClick; i++) {
       if (!hidden[i]) return this.outerHTML = "";
 
-      hidden[i].classList.add('box');
       hidden[i].classList.remove('hidden');
     }
   });
