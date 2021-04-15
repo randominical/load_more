@@ -4,7 +4,7 @@ for (var i = 0; i < more.length; i++) {
   more[i].addEventListener('click', function() {
     var showPerClick = 4;
     
-    var hidden = this.parentNode.querySelectorAll('div.item-hidden');
+    var hidden = document.querySelectorAll('div.item-hidden');
     for (var i = 0; i < showPerClick; i++) {
       if (!hidden[i]) return this.outerHTML = "";
 
